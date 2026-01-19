@@ -1,0 +1,14 @@
+[package]
+name = "stringsort"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Fast byte slice sort using CPS-quicksort + MSD radix with reusable cache windows (inspired by US7680791B2)."
+repository = "https://github.com/nikhilgarg28/stringsort/"
+readme = "README.md"
+keywords = ["sort", "radix", "quicksort", "streaming", "strings"]
+categories = ["algorithms", "data-structures"]
+
+[dependencies]
+
+[dev-dependencies]
